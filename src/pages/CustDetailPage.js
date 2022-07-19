@@ -1,6 +1,5 @@
 import React,{useState, useEffect} from 'react'
 import Navbar from '../components/Navbar'
-import data from '../data'
 import axios from 'axios'
 import { baseUrl } from "../utils/app_settings"
 

@@ -4,7 +4,6 @@ import Homepage from "../pages/Homepage";
 import CustDetailPage from "../pages/CustDetailPage"
 import Inddetailpage from "../pages/Inddetailpage";
 import Transferpage from "../pages/Transferpage";
-import Transcustdetail from "../pages/Transcustdetail";
 import TransferTo from "../pages/TransferTo";
 
 
@@ -16,7 +15,6 @@ const AppRouter = () => (
     <Route path="/detail" element={<CustDetailPage/>} />
     <Route path="/detailind/:id" element={<Inddetailpage/>} />
     <Route path="/transferdetail" element={<Transferpage/>} />
-    <Route path="/transferind/:id" element={<Transcustdetail/>} />
     <Route path="/transfer/:id" element={<TransferTo/>} />
 
     </Routes>

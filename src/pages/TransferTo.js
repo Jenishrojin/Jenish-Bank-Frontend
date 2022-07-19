@@ -1,7 +1,6 @@
 import React,{useState, useEffect} from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import Navbar from '../components/Navbar'
-import data from '../data'
 import axios from 'axios'
 import { baseUrl } from "../utils/app_settings"
 
@@ -31,7 +30,7 @@ const CustDetailPage = () => {
 
       console.log(response.data)
 
-      if(response.data == "Transfered Successfully") {
+      if(response.data === "Transfered Successfully") {
         navigate("/transferdetail");
       }
   }
