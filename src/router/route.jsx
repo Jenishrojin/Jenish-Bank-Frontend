@@ -11,7 +11,7 @@ const AppRouter = () => (
     <BrowserRouter>
     <div>
     <Routes>
-    <Route path="/" element={<Homepage/>} />
+    <Route path="/" element={<Homepage/>} exact={true}/>
     <Route path="/detail" element={<CustDetailPage/>} />
     <Route path="/detailind/:id" element={<Inddetailpage/>} />
     <Route path="/transferdetail" element={<Transferpage/>} />
