@@ -28,13 +28,13 @@ const homepage = () => {
             <div class="row">
             <div class="col-md-6">
             {/* <h4 class="image-description">view</h4> */}
-                <a href='/detail'>
+                <a href="https://jenish-banking-system.netlify.app/detail">
                 <img class ="view-image "src={Image}/>
                </a>
             </div>
             <div class="col-md-6">
               {/* <h4 class="image-description">trasfer</h4> */}
-              <a href='/transferdetail'>
+              <a href="https://jenish-banking-system.netlify.app/transferdetail">
                 <img class ="transfer-image"src={Image1}      />
               </a>
             </div>  
